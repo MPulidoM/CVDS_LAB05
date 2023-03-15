@@ -205,4 +205,46 @@ GET -->  Muestra el path del recurso a consultar
 
 -  todoToHTMLRow y todosToHTMLTable--> Permite tomar los objetos Java se convirtieran en HTML en un formato de tabla mostrandose en el navegador
 
+## **PARTE IV. - FRAMEWORKS WEB MVC – JAVA SERVER FACES /PRIME FACES**
 
+1. Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl,
+javax.servlet.jstl y Primefaces (en el archivo pom.xml).
+
+2. Para que configure automáticamente el descriptor de despliegue de la aplicación (archivo web.xml), de manera que el framework JSF se active al inicio
+de la aplicación, en el archivo web.xml agregue la siguiente configuración:
+
+```
+<servlet>
+ <servlet-name>Faces Servlet</servlet-name>
+ <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+ <load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+ <servlet-name>Faces Servlet</servlet-name>
+ <url-pattern>/faces/*</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+ <welcome-file>faces/index.jsp</welcome-file>
+</welcome-file-list>
+
+```
+3. Revise cada una de las configuraciones agregadas anteriormente para saber qué hacen y por qué se necesitan. Elimine las que no se necesiten.
+4. Ahora, va a crear un Backing-Bean de sesión, el cual, para cada usuario, mantendrá de lado del servidor las siguientes propiedades:
+a. El número que actualmente debe adivinar (debe ser un número aleatorio).
+b. El número de intentos realizados.
+c. El premio acumulado hasta el momento.
+d. El estado del juego, que sería una cadena de texto que indica si ya ganó o no, y si ganó de cuanto es el premio.
+Para hacer esto, cree una clase que tenga:
+el constructor por defecto (sin parámetros)
+los métodos get/set necesarios dependiendo si las propiedades son de escritura o lectura
+coloque las anotaciones:
+@ManagedBean, incluyendo el nombre: @ManagedBean(name = "guessBean").
+@ApplicationScoped.
+A la implementación de esta clase, agregue los siguientes métodos:
+guess: Debe recibir un intento de adivinanza y realizar la lógica para saber si se adivinó, de tal forma que se ajuste el valor del premio y/o actualice
+el estado del juego.
+restart: Debe volver a iniciar el juego (inicializar de nuevo el número a adivinar, y restaurar el premio a su valor original).
+5. Cree una página XHTML, de nombre guess.xhtml (debe quedar en la ruta src/main/webapp). Revise en la página 13 del manual de PrimeFaces, qué
+espacios de nombres XML requiere una página de PrimeFaces y cuál es la estructura básica de la misma.
+
+6. Con base en lo anterior, agregue un formulario con identificador guess_form con el siguiente contenido básico:
