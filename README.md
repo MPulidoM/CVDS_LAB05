@@ -148,6 +148,7 @@ Para cualquier otra excepcion, devolver el código equivalente a requerimiento i
 ![9](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE2.9.PNG)
 
 * Excepcion fileNotFoundException
+
 ![10](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE2.10.PNG)
 
 ## **PARTE III. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.**
@@ -186,7 +187,7 @@ POST --> Oculta el path del recurso a consultar
 
 GET -->  Muestra el path del recurso a consultar
 
-6.¿Qué se está viendo? Revise cómo están implementados los métodos de la clase Service.java para entender el funcionamiento interno.
+6. ¿Qué se está viendo? Revise cómo están implementados los métodos de la clase Service.java para entender el funcionamiento interno.
 
 **Clase Service: Cuenta con 3 Metodos**
 
