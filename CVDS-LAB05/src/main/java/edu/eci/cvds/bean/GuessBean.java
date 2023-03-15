@@ -9,7 +9,7 @@ import javax.faces.bean.*;
  * @author Mariana Pulido Moreno
  * @author Erika Juliana Castro
  */
-@ApplicationScoped
+@SessionScoped
 //@SessionScoped
 public class GuessBean {
     private int numeroAdivinar;
