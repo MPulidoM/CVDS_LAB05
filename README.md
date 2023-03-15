@@ -171,7 +171,21 @@ Para cualquier otra excepcion, devolver el código equivalente a requerimiento i
 3. En la página anterior, cree un formulario que tenga un campo para ingresar un número (si no ha manejado html antes, revise http://www.w3schools.com/html/ ) y un botón. El formulario debe usar como método ‘POST’, y como acción, la ruta relativa del último servlet creado (es decir la URL pero excluyendo ‘http://localhost:8080/’).
 
 ![12](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE3.2.PNG)
-![13](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE3.3.PNG)
+![13](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE3.4.PNG)
+ 
+ 4. Revise este ejemplo de validación de formularios con javascript y agruéguelo a su formulario, de manera que -al momento de hacer ‘submit’- desde el
+browser se valide que el valor ingresado es un valor numérico.
+
+5. Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada.
+Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . 
+![14](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE3.3.PNG)
+
+* ¿Qué Diferencía Observa?
+
+POST --> Oculta el path del recurso a consultar
+
+GET -->  Muestra el path del recurso a consultar
+
 
 
 
