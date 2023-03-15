@@ -75,6 +75,18 @@ El servidor se encuentra configurado para el puerto 8080
   mvn package
   mvn tomcat7:run
 ```
-![1](https://github.com/MPulidoM/CVDS_LAB05/tree/main/Imagenes/PARTE2.1.PNG)
+![1](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE2.1.PNG)
+![2](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE2.2.PNG)
+
+5. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá
+como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
+
+![2](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE2.3.PNG)
+
+6. Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregandoun parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
+
+![2](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE2.4.PNG)
+
+
 
 
