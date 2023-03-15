@@ -171,6 +171,7 @@ Para cualquier otra excepcion, devolver el código equivalente a requerimiento i
 3. En la página anterior, cree un formulario que tenga un campo para ingresar un número (si no ha manejado html antes, revise http://www.w3schools.com/html/ ) y un botón. El formulario debe usar como método ‘POST’, y como acción, la ruta relativa del último servlet creado (es decir la URL pero excluyendo ‘http://localhost:8080/’).
 
 ![12](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE3.2.PNG)
+![13](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE3.3.PNG)
 
 
 
