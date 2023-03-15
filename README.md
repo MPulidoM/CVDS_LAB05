@@ -173,7 +173,7 @@ Para cualquier otra excepcion, devolver el código equivalente a requerimiento i
 ![12](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE3.2.PNG)
 ![13](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE3.4.PNG)
  
- 4. Revise este ejemplo de validación de formularios con javascript y agruéguelo a su formulario, de manera que -al momento de hacer ‘submit’- desde el
+4. Revise este ejemplo de validación de formularios con javascript y agruéguelo a su formulario, de manera que -al momento de hacer ‘submit’- desde el
 browser se valide que el valor ingresado es un valor numérico.
 
 5. Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada.
@@ -186,6 +186,12 @@ POST --> Oculta el path del recurso a consultar
 
 GET -->  Muestra el path del recurso a consultar
 
+6.¿Qué se está viendo? Revise cómo están implementados los métodos de la clase Service.java para entender el funcionamiento interno.
 
+**Clase Service: Cuenta con 3 Metodos**
+
+-  getTodo --> Permite tener todos los datos que se requieren(Id, UserId,Title,Completed), estos datos estan en JSON(JavaScript Object Notation), mediante de Google Gson podemos pasar estos a representación JSON a un objeto Java.
+
+-  todoToHTMLRow y todosToHTMLTable--> Permite tomar los objetos Java se convirtieran en HTML en un formato de tabla mostrandose en el navegador
 
 
