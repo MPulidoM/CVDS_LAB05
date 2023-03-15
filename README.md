@@ -322,6 +322,8 @@ a. Abra la aplicación en un explorador. Realice algunas pruebas con el juego e 
 
 ![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE4.2.PNG)
 
+![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE4.8.PNG)
+
 b. Abra la aplicación en dos computadores diferentes. Si no dispone de uno, hágalo en dos navegadores diferentes (por ejemplo Chrome y Firefox;incluso se puede en un único navegador usando una ventana normal y una ventana de incógnito / privada). Haga cinco intentos en uno, y luego
 un intento en el otro. ¿Qué valor tiene cada uno?
 
