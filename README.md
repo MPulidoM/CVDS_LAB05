@@ -266,7 +266,7 @@ espacios de nombres XML requiere una página de PrimeFaces y cuál es la estruct
 </h:body>
 ```
 7. Al formulario, agregue:
-8.
+
 a. Un elemento de tipo <p:outputLabel> para el número que se debe adivinar, sin embargo, este elemento se debe ocultar. Para ocultarlo, se
 puede agregar el estilo display: none; al elemento. Una forma de hacerlo es por medio de la propiedad style.
 En una aplicacion real, no se debería tener este elemento, solo se crea con el fin de simplificar una prueba futura.
@@ -330,7 +330,8 @@ un intento en el otro. ¿Qué valor tiene cada uno?
 ![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE4.4.PNG)
 
 c. Aborte el proceso de Tomcat-runner haciendo Ctrl+C en la consola, y modifique el código del backing-bean de manera que use la anotación
-@SessionScoped en lugar de @ApplicationScoped. Reinicie la aplicación y repita el ejercicio anterior.¿Coinciden los valores del premio?.Dado la anterior, ¿Cuál es la diferencia entre los backing-beans de sesión y los de aplicación?
+@SessionScoped en lugar de @ApplicationScoped. Reinicie la aplicación y repita el ejercicio anterior.
+¿Coinciden los valores del premio?.Dado la anterior, ¿Cuál es la diferencia entre los backing-beans de sesión y los de aplicación?
 Data retention summary Get the mobile app
 
 ![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/PARTE4.6.PNG)
