@@ -18,11 +18,13 @@ usando la versión 1.0 de HTTP.
 * Asegúrese de presionar ENTER dos veces después de ingresar el comando.
 * Revise el resultado obtenido. ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
 ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
+![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/1.0.jpeg)
 4. Realice una nueva conexión con telnet, esta vez a:
 * Host: www.httpbin.org
 * Puerto: 80
 * Versión HTTP: 1.1
 Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado? 
+![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/1.1.jpeg)
 
 ¡Muy bien!, ¡Acaba de usar del protocolo HTTP sin un navegador Web!. Cada vez que se usa un navegador, éste se conecta a un servidor HTTP, envía peticiones
 (del protocolo HTTP), espera el resultado de las mismas, y -si se trata de contenido HTML- lo interpreta y dibuja.
@@ -32,6 +34,8 @@ opción -c para contar el número de caracteres:
 ```
   wc -c
 ```
+
+
 Pegue el contenido del portapapeles con CTRL-SHIFT-V y presione CTRL-D (fin de archivo de Linux). Si no termina el comando wc presione CTRL-D de nuevo. No presione mas de dos veces CTRL-D indica que se termino la entrada y puede cerrarle la terminal. Debe salir el resultado de la cantidad decaracteres que tiene el contenido HTML que respondió el servidor.
 
 Claro está, las peticiones GET son insuficientes en muchos casos. Investigue: ¿Cuál es la diferencia entre los verbos GET y POST? ¿Qué otros tipos de
@@ -41,11 +45,17 @@ peticiones existen?
 ```
   curl www.httpbin.org
 ```
+![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/1.3.jpeg)
+
 Utilice ahora el parámetro -v y con el parámetro -i:
 ```
   curl -v www.httpbin.org
   curl -i www.httpbin.org
 ```
+![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/1.4.jpeg)
+
+![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/1.5.jpeg)
+
 ¿Cuáles son las diferencias con los diferentes parámetros?
 
 ## **PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.**
