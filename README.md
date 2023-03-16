@@ -26,6 +26,8 @@ usando la versión 1.0 de HTTP.
 
 ![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/error.png)
 
+Tomado de: https://plataforma.josedomingo.org/pledin/cursos/apache24/curso/u01/
+
 4. Realice una nueva conexión con telnet, esta vez a:
 * Host: www.httpbin.org
 * Puerto: 80
@@ -53,7 +55,9 @@ Claro está, las peticiones GET son insuficientes en muchos casos. Investigue: �
 
  ¿Qué otros tipos de peticiones existen?
  
- ![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/peticiones.png)
+ ![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/peticiones.PNG)
+ 
+ Tomado de: https://fragmentosdecodigo.home.blog/2021/01/02/protocolo-http/
 
 
 6. En la practica no se utiliza telnet para hacer peticiones a sitios web sino el comando curl con ayuda de la linea de comandos:
@@ -72,6 +76,9 @@ Utilice ahora el parámetro -v y con el parámetro -i:
 ![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/1.5.jpeg)
 
 ¿Cuáles son las diferencias con los diferentes parámetros?
+
+- **-v** : Operación más detallada.
+- **-i**: Incluye cabeceras de respuesta del protocolo responsable de la salida.
 
 ## **PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.**
 En este ejercicio, va a implementar una aplicación Web muy básica, haciendo uso de los elementos de más bajo nivel de Java-EE (Enterprise Edition), con el fin de revisar los conceptos del protocolo HTTP. En este caso, se trata de un módulo de consulta de clientes Web que hace uso de una librería de acceso a datos disponible en un repositorio Maven local.
