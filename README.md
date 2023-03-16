@@ -24,7 +24,7 @@ usando la versión 1.0 de HTTP.
 
 ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
 
-![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/error.PNG)
+![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/error.png)
 
 4. Realice una nueva conexión con telnet, esta vez a:
 * Host: www.httpbin.org
@@ -45,8 +45,16 @@ opción -c para contar el número de caracteres:
 
 Pegue el contenido del portapapeles con CTRL-SHIFT-V y presione CTRL-D (fin de archivo de Linux). Si no termina el comando wc presione CTRL-D de nuevo. No presione mas de dos veces CTRL-D indica que se termino la entrada y puede cerrarle la terminal. Debe salir el resultado de la cantidad decaracteres que tiene el contenido HTML que respondió el servidor.
 
-Claro está, las peticiones GET son insuficientes en muchos casos. Investigue: ¿Cuál es la diferencia entre los verbos GET y POST? ¿Qué otros tipos de
-peticiones existen?
+Claro está, las peticiones GET son insuficientes en muchos casos. Investigue: ¿Cuál es la diferencia entre los verbos GET y POST?
+
+**GET** --> Lleva una representación a un recurso especifico. Estas solo se usan para recuperar datos, ademas la URL es visible.
+
+**POST** --> Lleva una entidad a un recurso especifico. Esto causa a menudo un cambio de estado en el servidor. La URl está oculta.
+
+ ¿Qué otros tipos de peticiones existen?
+ 
+ ![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/peticiones.png)
+
 
 6. En la practica no se utiliza telnet para hacer peticiones a sitios web sino el comando curl con ayuda de la linea de comandos:
 ```
