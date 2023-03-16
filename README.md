@@ -24,6 +24,7 @@ usando la versión 1.0 de HTTP.
 
 ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
 
+![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/error.PNG)
 
 4. Realice una nueva conexión con telnet, esta vez a:
 * Host: www.httpbin.org
