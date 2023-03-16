@@ -17,8 +17,14 @@ Teniendo en cuenta los parámetros del comando telnet:
 usando la versión 1.0 de HTTP.
 * Asegúrese de presionar ENTER dos veces después de ingresar el comando.
 * Revise el resultado obtenido. ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
-¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
+
 ![](https://github.com/MPulidoM/CVDS_LAB05/blob/main/Imagenes/1.0.jpeg)
+
+- **Codigo Error 400: Bad Request:**  Se intenta entrar a un sitio web enviando una solicitud al servidor de este. El servidor no reconoce y por tanto no procesa la solicitud.
+
+¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
+
+
 4. Realice una nueva conexión con telnet, esta vez a:
 * Host: www.httpbin.org
 * Puerto: 80
